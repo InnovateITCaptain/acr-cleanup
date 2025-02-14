@@ -4,10 +4,10 @@
 [CmdletBinding()]
 Param(
     # Define ACR Name
-    [String] $AzureRegistryName = "<ACR_NAME>",
+    [String] $AzureRegistryName,
 
     # Define Azure Subscription Name
-    [String] $SubscriptionName = "<SUBSCRIPTION_NAME>",
+    [String] $SubscriptionName,
   
     # Number of images to retain per respository
     [Int] $ImagestoKeep = 5,
